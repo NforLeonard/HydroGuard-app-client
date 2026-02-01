@@ -6,7 +6,7 @@ Our AI driven sensors detect rising water levels instantly and sends alerts befo
 
 ## Features
 <span style="color: cyan; font-weight: bold;">1. ChatBot Services</span><br>
-![](product/product/Screenshot 2026-01-19 150505.png)
+![Dashboard view](product/product/Screenshot 2026-01-19 150505.png)
 <span>2. Dashboard</span><br>
 <span>3. Notification Services</span><br>
 

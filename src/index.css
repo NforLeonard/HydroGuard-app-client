@@ -1,0 +1,44 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Water Theme Palette */
+  --color-primary: #0369a1;    /* ocean-700 */
+  --color-secondary: #0284c7;  /* sky-600 */
+  --color-accent: #06b6d4;     /* cyan-500 */
+  --color-success: #10b981;    /* emerald-500 */
+  --color-warning: #f59e0b;    /* amber-500 */
+  --color-critical: #ef4444;   /* red-500 */
+  
+  --bg-app: #f8fafc;           /* slate-50 */
+  --bg-card: #ffffff;
+  
+  --text-primary: #0f172a;     /* slate-900 */
+  --text-secondary: #64748b;   /* slate-500 */
+}
+
+body {
+  background-color: var(--bg-app);
+  color: var(--text-primary);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Hide scrollbar for horizontal scrolling areas but keep functionality */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Pull to refresh spinner animation */
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+.animate-spin-custom {
+  animation: spin 1s linear infinite;
+}
